@@ -3,35 +3,16 @@
 import { useState, useMemo } from "react";
 import Link from "next/link";
 import type { Product, ProductColor } from "@/types";
-import { StarIcon } from "@/components/icons";
 import { ColorSwatches } from "@/components/color-swatches";
 import { SizeSelector } from "@/components/size-selector";
 import { useCart } from "@/components/cart-provider";
 import { WishlistButton } from "@/components/wishlist-button";
+import { StarRating } from "@/components/star-rating";
 import { getSellerById } from "@/data/sellers";
+import { getBaseline } from "@/lib/reviews";
 
 interface ProductInfoProps {
   product: Product;
-}
-
-function StarRating({ rating, count }: { rating: number; count: number }) {
-  const fullStars = Math.floor(rating);
-  const hasHalf = rating - fullStars >= 0.5;
-
-  return (
-    <div className="flex items-center gap-1.5">
-      <div className="flex gap-0.5">
-        {Array.from({ length: 5 }, (_, i) => (
-          <StarIcon
-            key={i}
-            filled={i < fullStars || (i === fullStars && hasHalf)}
-            className="h-3.5 w-3.5 text-charcoal"
-          />
-        ))}
-      </div>
-      <span className="text-xs text-warm-gray">({count})</span>
-    </div>
-  );
 }
 
 /** Deterministic stock level based on product id */
@@ -62,6 +43,7 @@ export function ProductInfo({ product }: ProductInfoProps) {
 
   const stock = useMemo(() => getStockInfo(product.id), [product.id]);
   const seller = getSellerById(product.sellerId);
+  const reviews = useMemo(() => getBaseline(product.slug), [product.slug]);
   const deliveryDate = useMemo(() => getEstimatedDelivery(), []);
 
   const collectionName = product.category === "men"
@@ -104,7 +86,7 @@ export function ProductInfo({ product }: ProductInfoProps) {
           </h1>
           <WishlistButton productId={product.id} className="mt-1 flex-shrink-0" />
         </div>
-        <StarRating rating={product.rating} count={product.reviewCount} />
+        <StarRating rating={reviews.average} count={reviews.count} />
         {seller && (
           <Link
             href={`/collections/all?seller=${seller.slug}`}

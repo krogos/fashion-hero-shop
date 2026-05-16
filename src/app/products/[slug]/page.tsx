@@ -5,6 +5,7 @@ import { ImageGallery } from "@/components/image-gallery";
 import { ProductInfo } from "@/components/product-info";
 import { ProductDetailsAccordion } from "@/components/product-details-accordion";
 import { RelatedProducts } from "@/components/related-products";
+import { ReviewsSection } from "@/components/reviews-section";
 import { RecentlyViewedSection } from "./recently-viewed-section";
 
 interface PageProps {
@@ -56,6 +57,9 @@ export default async function ProductPage({ params }: PageProps) {
       <div className="mt-12 max-w-2xl">
         <ProductDetailsAccordion product={product} />
       </div>
+
+      {/* Reviews */}
+      <ReviewsSection slug={product.slug} />
 
       {/* Related products */}
       <RelatedProducts products={related} />

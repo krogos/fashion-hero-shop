@@ -7,6 +7,8 @@ import type { Product } from "@/types";
 import { WishlistButton } from "./wishlist-button";
 import { useQuickView } from "./quick-view-provider";
 import { getSellerById } from "@/data/sellers";
+import { getBaseline } from "@/lib/reviews";
+import { StarRating, TopRatedBadge } from "@/components/star-rating";
 
 interface ProductCardProps {
   product: Product;
@@ -26,6 +28,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
   const firstColor = product.colors[0];
   const { openQuickView } = useQuickView();
   const seller = getSellerById(product.sellerId);
+  const reviews = getBaseline(product.slug);
   const badgeLabel = product.badge === "new"
     ? "NEW"
     : product.badge === "new-color"
@@ -147,6 +150,12 @@ export function ProductCard({ product, className }: ProductCardProps) {
             {product.originalPrice} zl
           </span>
         )}
+      </div>
+
+      {/* Reviews */}
+      <div className="flex items-center justify-between gap-2 mt-1">
+        <StarRating rating={reviews.average} count={reviews.count} size="sm" />
+        <TopRatedBadge average={reviews.average} count={reviews.count} />
       </div>
     </div>
   );

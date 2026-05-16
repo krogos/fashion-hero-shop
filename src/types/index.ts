@@ -31,7 +31,7 @@ export interface Product {
   images: string[];
   type: ShoeType;
   material: ShoeMaterial;
-  rating: number;
+  rating: number | null;
   reviewCount: number;
   tags: string[];
   sellerId: string;

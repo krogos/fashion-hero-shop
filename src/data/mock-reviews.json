@@ -1,0 +1,308 @@
+{
+  "_meta": {
+    "version": 1,
+    "generated": "2026-05-16",
+    "note": "Mock data dla 35 produktów. Power Sellers (UrbanEdgePro, Bella DonnaPro) - wysokie ratingi i dużo recenzji. Mid-tier - umiarkowane. Marta Handmade i Kasia Creates - brak recenzji (intentional, pokazuje JTBD3 Kamila z Merchant Insights)."
+  },
+  "products": {
+    "cloud-runner": {
+      "average": 4.7,
+      "count": 87,
+      "distribution": { "5": 62, "4": 18, "3": 5, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Marek K.", "date": "2026-04-12", "rating": 5, "title": "Lekkie jak chmurka", "body": "Noszę codziennie do pracy. Po trzech miesiącach żadnych oznak zużycia. Rozmiar zgodny z tabelą.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Agnieszka W.", "date": "2026-03-28", "rating": 5, "title": "Wreszcie wygodne sneakersy", "body": "Materiał z recyklingu czuć - oddychający, nie pocą się stopy. Świetna jakość.", "verified": true, "size": "true to size" },
+        { "id": "r3", "author": "Tomasz L.", "date": "2026-02-14", "rating": 4, "body": "Buty bardzo dobre, ale podeszwa trochę śliska na mokrym. Poza tym polecam.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "trail-pacer": {
+      "average": 4.5,
+      "count": 64,
+      "distribution": { "5": 38, "4": 18, "3": 6, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Piotr S.", "date": "2026-04-02", "rating": 5, "title": "Idealne w teren", "body": "Robiłem 25 km po lesie, stopa sucha, kostka stabilna. Warte pieniędzy.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Karolina M.", "date": "2026-03-18", "rating": 4, "body": "Solidne, ale przydałby się lepszy wkład pod piętą. Ogólnie polecam.", "verified": true, "size": "runs small" }
+      ]
+    },
+    "dash-sport": {
+      "average": 4.6,
+      "count": 112,
+      "distribution": { "5": 78, "4": 26, "3": 6, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Rafał B.", "date": "2026-04-20", "rating": 5, "title": "Świetnie się biega", "body": "Bardzo lekkie. Biegam 4 razy w tygodniu, po 200 km żadnych problemów.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Maja P.", "date": "2026-03-30", "rating": 5, "body": "Kolor dokładnie jak na zdjęciach. Pasują na średnio szeroką stopę.", "verified": true, "size": "true to size" },
+        { "id": "r3", "author": "Adam K.", "date": "2026-01-15", "rating": 4, "body": "Dobre, choć cena trochę wysoka. Sznurówki mogłyby być dłuższe.", "verified": false, "size": "true to size" }
+      ]
+    },
+    "lightweight-jacket-mens": {
+      "average": 4.4,
+      "count": 71,
+      "distribution": { "5": 41, "4": 20, "3": 7, "2": 2, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Krzysztof N.", "date": "2026-04-05", "rating": 5, "title": "Idealna na wiosnę", "body": "Lekka, wiatroszczelna, mieści się w kieszeni. Dokładnie tego szukałem.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Michał D.", "date": "2026-02-22", "rating": 3, "body": "Materiał szybko się gniecie. Funkcjonalnie OK, ale wizualnie po tygodniu już nie.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "street-runner-x": {
+      "average": 4.8,
+      "count": 156,
+      "distribution": { "5": 124, "4": 24, "3": 6, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Bartek W.", "date": "2026-05-01", "rating": 5, "title": "Najlepsze sneakersy w tej cenie", "body": "Komfort od pierwszego dnia, bez okresu rozchodzenia. Czarne pasują do wszystkiego.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Patrycja G.", "date": "2026-04-18", "rating": 5, "body": "Drugą parę kupuję. Pierwsze noszę już rok i dalej wyglądają jak nowe.", "verified": true, "size": "true to size" },
+        { "id": "r3", "author": "Kuba R.", "date": "2026-03-05", "rating": 5, "title": "Bestseller słusznie", "body": "Świetna amortyzacja, dobrze trzymają stopę. Polecam każdemu.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "stealth-hoodie": {
+      "average": 4.5,
+      "count": 89,
+      "distribution": { "5": 55, "4": 25, "3": 7, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Daniel T.", "date": "2026-04-10", "rating": 5, "title": "Gruba bawełna, solidne wykonanie", "body": "Materiał ma gramaturę. Po dwóch praniach bez zmian. Krój regular, w sam raz.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Anna F.", "date": "2026-03-22", "rating": 4, "body": "Bardzo wygodna, ale w pasie odrobinę za luźna. Następnym razem wezmę rozmiar mniejszy.", "verified": true, "size": "runs large" }
+      ]
+    },
+    "edge-runner-pro": {
+      "average": 4.6,
+      "count": 103,
+      "distribution": { "5": 71, "4": 22, "3": 8, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Łukasz J.", "date": "2026-04-25", "rating": 5, "title": "Profesjonalna jakość", "body": "Biegam półmaratony, te buty zniosły 6 startów bez śladu zużycia.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Beata S.", "date": "2026-03-12", "rating": 4, "body": "Świetne, lekkie, dobre trzymanie pięty. Cena trochę boli.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "heavyweight-crewneck": {
+      "average": 4.7,
+      "count": 78,
+      "distribution": { "5": 57, "4": 16, "3": 4, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Janek M.", "date": "2026-04-08", "rating": 5, "title": "Wreszcie gruba bluza", "body": "Realnie heavyweight - czuć różnicę. Krój pudełkowy, jak na zdjęciach.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Igor C.", "date": "2026-02-28", "rating": 5, "body": "Po 5 praniach nadal jak nowa. Polecam.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "cloud-runner-womens": {
+      "average": 4.8,
+      "count": 134,
+      "distribution": { "5": 102, "4": 24, "3": 6, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Magda K.", "date": "2026-05-03", "rating": 5, "title": "Najwygodniejsze buty jakie miałam", "body": "Kolor blush pink na żywo nawet ładniejszy. Stopa nie męczy się po całym dniu.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Sylwia W.", "date": "2026-04-15", "rating": 5, "body": "Druga para. Pierwsze służą mi 8 miesięcy bez zarzutu.", "verified": true, "size": "true to size" },
+        { "id": "r3", "author": "Ewa P.", "date": "2026-03-08", "rating": 4, "body": "Bardzo wygodne, ale ja mam wąską stopę i czasem czuję że są odrobinę za szerokie.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "aero-knit": {
+      "average": 4.5,
+      "count": 67,
+      "distribution": { "5": 42, "4": 17, "3": 6, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Joanna L.", "date": "2026-04-19", "rating": 5, "title": "Lekkie jak nic", "body": "Idealne na lato, materiał oddycha. Białe utrzymują czystość lepiej niż się spodziewałam.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Natalia B.", "date": "2026-03-02", "rating": 4, "body": "Wygodne, ale podeszwa cienka - czuć kamyki na chodniku.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "metro-step": {
+      "average": 4.4,
+      "count": 51,
+      "distribution": { "5": 28, "4": 17, "3": 4, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Dorota S.", "date": "2026-04-11", "rating": 5, "title": "Pasują do wszystkiego", "body": "Klasyczne białe sneakersy, świetna podstawa do garderoby. Wkładka miękka.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Wiktoria H.", "date": "2026-03-25", "rating": 4, "body": "Spoko, ale po miesiącu pojawiło się przebarwienie na nosku. Może to ja.", "verified": true, "size": "runs small" }
+      ]
+    },
+    "cardigan-womens": {
+      "average": 4.6,
+      "count": 93,
+      "distribution": { "5": 64, "4": 22, "3": 5, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Marta P.", "date": "2026-04-22", "rating": 5, "title": "Cudo na chłodne dni", "body": "Kolor oatmeal pasuje do wszystkiego, dzianina przyjemna, nie gryzie. Krój oversize w sam raz.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Olga M.", "date": "2026-03-15", "rating": 5, "body": "Lepszej jakości niż się spodziewałam za tę cenę. Bardzo polecam.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "silk-touch-flat": {
+      "average": 4.7,
+      "count": 88,
+      "distribution": { "5": 62, "4": 20, "3": 4, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Aleksandra D.", "date": "2026-04-28", "rating": 5, "title": "Elegancja i wygoda razem", "body": "Założyłam na wesele, przetańczyłam noc i ani trochę nie bolały. Kolor szampana piękny.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Barbara K.", "date": "2026-03-10", "rating": 4, "body": "Eleganckie, dobrze leżą. Trochę śliskie wewnątrz - rajstopy potrafią się przesuwać.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "wrap-dress": {
+      "average": 4.3,
+      "count": 76,
+      "distribution": { "5": 42, "4": 20, "3": 10, "2": 3, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Klaudia W.", "date": "2026-04-14", "rating": 5, "title": "Idealna na wyjście", "body": "Materiał układa się ładnie, granatowy kolor klasyczny. Dobre na wesele.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Hanna T.", "date": "2026-03-20", "rating": 3, "body": "Sukienka ładna, ale wiązanie ciągle się rozsupłuje. Musiałam dodatkowo zszyć.", "verified": true, "size": "runs small" }
+      ]
+    },
+    "ankle-boot-womens": {
+      "average": 4.6,
+      "count": 119,
+      "distribution": { "5": 81, "4": 28, "3": 7, "2": 2, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Iwona B.", "date": "2026-04-30", "rating": 5, "title": "Mój klasyk na sezon", "body": "Skóra solidna, obcas wygodny - 5 cm to maks dla mnie. Idealne do jeansów i sukienek.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Renata G.", "date": "2026-03-07", "rating": 4, "body": "Bardzo ładne, choć rozchodzenie zajęło tydzień. Po tym czasie pełen komfort.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "silk-cami": {
+      "average": 4.5,
+      "count": 58,
+      "distribution": { "5": 35, "4": 16, "3": 5, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Wiola J.", "date": "2026-04-17", "rating": 5, "title": "Cienka materia, ale jakość", "body": "Świetnie układa się pod marynarkę. Kolor szampana ciepły, nie tani.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "dash-sport-womens": {
+      "average": 4.5,
+      "count": 74,
+      "distribution": { "5": 46, "4": 20, "3": 6, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Karina M.", "date": "2026-04-09", "rating": 5, "title": "Lekkie i ładne", "body": "Coral pink jest dokładnie taki jak na zdjęciach. Bardzo wygodne na codzień i bieganie.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Justyna K.", "date": "2026-03-19", "rating": 4, "body": "Dobrej jakości buty, choć dla mojego szerszego stopy ciasnawo. Wzięłam rozmiar większy.", "verified": true, "size": "runs small" }
+      ]
+    },
+    "performance-sock": {
+      "average": 4.7,
+      "count": 213,
+      "distribution": { "5": 162, "4": 38, "3": 9, "2": 2, "1": 2 },
+      "reviews": [
+        { "id": "r1", "author": "Mariusz T.", "date": "2026-04-26", "rating": 5, "body": "Najlepsze skarpetki do biegania. Brak otarć, materiał oddycha.", "verified": true },
+        { "id": "r2", "author": "Filip S.", "date": "2026-03-31", "rating": 5, "title": "Kupuję regularnie", "body": "Trwałe, dobre wsparcie pod stopą. Polecam każdemu kto biega regularnie.", "verified": true }
+      ]
+    },
+    "velocity-runner": {
+      "average": 4.4,
+      "count": 56,
+      "distribution": { "5": 32, "4": 17, "3": 5, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Hubert N.", "date": "2026-04-21", "rating": 4, "title": "Dobre na tempo", "body": "Volt rzuca się w oczy. Lekkie, ale podeszwa twardsza - na długie dystanse średnio.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "velocity-runner-womens": {
+      "average": 4.5,
+      "count": 49,
+      "distribution": { "5": 30, "4": 14, "3": 4, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Paulina W.", "date": "2026-04-03", "rating": 5, "title": "Idealne na treningi", "body": "Lekkie i widoczne. Dobre dla biegów krótkich i interwałów.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "track-jacket-mens": {
+      "average": 4.3,
+      "count": 38,
+      "distribution": { "5": 19, "4": 13, "3": 4, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Sebastian R.", "date": "2026-04-06", "rating": 4, "body": "Solidna bluza dresowa. Krój regular, w sam raz, niezbyt obcisła.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "coast-slide": {
+      "average": 4.2,
+      "count": 18,
+      "distribution": { "5": 9, "4": 5, "3": 3, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Damian K.", "date": "2026-04-13", "rating": 4, "body": "Tanie i wygodne klapki na plażę. Materiał lekko śliski na mokrej podłodze.", "verified": true, "size": "runs large" }
+      ]
+    },
+    "classic-tee-mens": {
+      "average": 4.1,
+      "count": 24,
+      "distribution": { "5": 11, "4": 8, "3": 3, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Marcin O.", "date": "2026-03-29", "rating": 4, "title": "Solidny basic", "body": "Bawełna porządna, krój regular. Po praniu nie wyciąga się. Jak na cenę spoko.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "classic-tee-womens": {
+      "average": 4.3,
+      "count": 31,
+      "distribution": { "5": 17, "4": 10, "3": 2, "2": 1, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Aneta S.", "date": "2026-04-04", "rating": 4, "body": "Dobry biały t-shirt, materiał gęsty. Pasuje pod marynarkę i jeansy.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "lab-runner-001": {
+      "average": 4.4,
+      "count": 22,
+      "distribution": { "5": 13, "4": 6, "3": 2, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Bartosz F.", "date": "2026-04-16", "rating": 5, "title": "Minimalistyczny design", "body": "Białe sneakersy z charakterem. Materiał dobrej jakości, podeszwa miękka.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Karol Z.", "date": "2026-03-21", "rating": 4, "body": "Spoko, ale białe szybko się brudzą. Trzeba czyścić co tydzień.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "lab-runner-002": {
+      "average": 4.2,
+      "count": 17,
+      "distribution": { "5": 8, "4": 6, "3": 2, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Roksana M.", "date": "2026-04-01", "rating": 4, "body": "Kolor blush bardzo ładny, ale rozmiar wymaga zamówienia o numer większy.", "verified": true, "size": "runs small" }
+      ]
+    },
+    "lab-high-top": {
+      "average": 4.0,
+      "count": 9,
+      "distribution": { "5": 4, "4": 3, "3": 1, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Mikołaj P.", "date": "2026-03-26", "rating": 4, "body": "Sneakersy z charakterem. Cholewka mogłaby być sztywniejsza w okolicy kostki.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "lab-platform": {
+      "average": 4.1,
+      "count": 12,
+      "distribution": { "5": 6, "4": 3, "3": 2, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Zuzanna K.", "date": "2026-04-07", "rating": 4, "title": "Wyższe niż się spodziewałam", "body": "Platforma daje sporo wysokości. Wygodne, ale do rozchodzenia.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "ankle-sock-mens": {
+      "average": 4.5,
+      "count": 41,
+      "distribution": { "5": 24, "4": 13, "3": 3, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Konrad B.", "date": "2026-04-23", "rating": 5, "body": "Cienkie skarpetki, idealne pod sneakersy. Nie spadają z pięty.", "verified": true }
+      ]
+    },
+    "ankle-sock-womens": {
+      "average": 4.6,
+      "count": 38,
+      "distribution": { "5": 25, "4": 10, "3": 2, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Patrycja S.", "date": "2026-04-19", "rating": 5, "title": "Niewidoczne pod butem", "body": "Dokładnie tego szukałam. Nie ciasne, nie luźne, dobrze trzymają stopę.", "verified": true }
+      ]
+    },
+    "hemp-runner": {
+      "average": 4.4,
+      "count": 27,
+      "distribution": { "5": 15, "4": 8, "3": 3, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Ada G.", "date": "2026-04-11", "rating": 5, "title": "Eko i wygodne", "body": "Materiał z konopi naprawdę oddycha. Stopa nie męczy się latem. Naturalny kolor klasyka.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "stride-loafer": {
+      "average": 4.6,
+      "count": 43,
+      "distribution": { "5": 28, "4": 11, "3": 3, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Wojciech L.", "date": "2026-04-15", "rating": 5, "title": "Klasyk do biura", "body": "Skóra dobrej jakości, kolor espresso ładnie wygląda. Dobrze pasują pod garnitur i jeansy.", "verified": true, "size": "true to size" },
+        { "id": "r2", "author": "Andrzej M.", "date": "2026-03-13", "rating": 4, "body": "Solidne, choć przez pierwszy tydzień trochę uciskały. Po rozchodzeniu OK.", "verified": true, "size": "runs small" }
+      ]
+    },
+    "suede-desert-boot": {
+      "average": 4.7,
+      "count": 52,
+      "distribution": { "5": 36, "4": 13, "3": 2, "2": 0, "1": 1 },
+      "reviews": [
+        { "id": "r1", "author": "Tomek B.", "date": "2026-04-27", "rating": 5, "title": "Klasyka w wykonaniu premium", "body": "Zamsz wysokiej jakości. Kolor piaskowy uniwersalny. Dobre na wiosnę i jesień.", "verified": true, "size": "true to size" }
+      ]
+    },
+    "skorzane-sandaly": {
+      "average": null,
+      "count": 0,
+      "distribution": {},
+      "reviews": []
+    },
+    "tote-bag": {
+      "average": null,
+      "count": 0,
+      "distribution": {},
+      "reviews": []
+    }
+  }
+}
